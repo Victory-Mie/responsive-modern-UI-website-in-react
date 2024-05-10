@@ -41,7 +41,7 @@ function Navbar() {
         <p>Sign in</p>
         <button type="button"> Sign up</button>
       </div>
-      <div class="navbar-menu">
+      <div className="navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
@@ -58,7 +58,7 @@ function Navbar() {
         {/* 移动端大小时菜单栏的显示将由toggleMenu控制，弹出时有scale-up-center中心扩大动画效果 */}
         {toggleMenu && (
           <div className="navbar-menu_container scale-up-center">
-            <div class="navbar-menu_container-links">
+            <div className="navbar-menu_container-links">
               <Menu></Menu>
               <div className="navbar-menu_container-links-sign">
                 <p>Sign in</p>

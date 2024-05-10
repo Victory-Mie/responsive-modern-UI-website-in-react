@@ -3,7 +3,7 @@ import "./brand.css";
 import { google, slack, atlassian, dropbox, shopify } from "./import";
 function Brand() {
   return (
-    <div className="brand section-padding">
+    <div className="brand section-padding" id="brand">
         <img src={google} alt="google"></img>
         <img src={slack} alt="slack"></img>
         <img src={atlassian} alt="atlassian"></img>
