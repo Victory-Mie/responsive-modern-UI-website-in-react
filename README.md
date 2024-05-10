@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### 将build好的文件上传至github page
+```
+# 本地打包构建
+npm run build
+
+# 进入 build 目录
+cd build
+
+# 创建本地 Git 仓库
+git init 
+# 添加和提交
+git add -A
+git commit -m 'deploy'
+# 指定 origin 和分支，直接强推
+git push -f git@github.com:Victory-Mie/gpt3-website.git master
+
+# 回到原来的目录
+cd -
+```
