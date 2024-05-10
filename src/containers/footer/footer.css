@@ -1,0 +1,129 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #031B34;
+
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.footer-title h1 {
+    font-family: var(--font-family);
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    text-align: center;
+
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-button button {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 21.09px;
+
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 218px;
+    height: 65px;
+    background-color: transparent;
+
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-top: 10rem;
+}
+
+.footer-content-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2rem 4rem 0;
+}
+
+.footer-content-logo img {
+    width: 10rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-content-slogan {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-content-slogan p {
+    font-family: "Gilroy-Medium";
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.footer-content-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-title {
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    line-height: 16.41px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+
+.links-content {
+    font-family: "Gilroy";
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.footer-corp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-corp p {
+    font-family: "Gilroy";
+    font-size: 12px;
+    line-height: 14.06px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 4rem;
+}
+@media screen and (max-width:750px){
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

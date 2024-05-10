@@ -1,0 +1,52 @@
+.cta {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10.72px;
+    background: var(--gradient-bar);
+    padding: 2rem;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-text {
+    flex: 1;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.cta-title {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.cta-btn {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.button {
+    width: 8rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 40px;
+    background: #000000;
+    color: #fff;
+    cursor: pointer;
+}
